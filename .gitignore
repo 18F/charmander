@@ -1,0 +1,12 @@
+# Vagrant Relevant Files
+.vagrant
+
+# Ignore component and modules downloaded from NPM and Bower
+bower_components
+node_modules
+
+# Ignore anything that is the end result of work
+_deploy
+
+# Mac Stuff
+.DS_Store
