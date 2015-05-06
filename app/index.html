@@ -3,4 +3,12 @@ layout: default
 title: Home
 ---
 
-Hello, world!
+<h1>Welcome to Charmander!</h1>
+
+<p>Charmander is a quick and easy way to get you set up developing using Jekyll. Right now,
+it offers the following functionality:</p>
+
+<ul class="default-ul">
+{% for item in site.data.features %}
+<li>{{ item }}</li>
+{% endfor %}

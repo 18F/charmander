@@ -2,6 +2,7 @@
 
 # Title of the site
 title: "My awesome site"
+base_url: "http://charmander.charmander"
 
 # Basic meta description for pages that don't have one specified
 description: "A basic, incredible site."
@@ -18,6 +19,7 @@ twitter_image: ''
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 source: app/
 destination: _deploy/

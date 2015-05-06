@@ -53,6 +53,7 @@ gulp.task('default', ['jekyll'], function() {
         server: {
             baseDir: "./_deploy/"
         },
+        port: 3000,
         ui: false,
         tunnel: true
     });

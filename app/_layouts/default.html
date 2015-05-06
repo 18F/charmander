@@ -19,7 +19,7 @@
   ================================================== -->
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:url" content="!!!!!!!NEEEDSURL!!!!!" />
+  <meta property="og:url" content="{{ site.base_url }}{{ page.url }}" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:image" content="NEEDSIMAGE" />
@@ -34,7 +34,7 @@
   <meta property="twitter:image:src" content="{{ site.twitter_image }}" />
   {% endif %}
 
-  <link rel="canonical" href="" />
+  <link rel="canonical" href="{{ site.base_url }}{{ page.url }}" />
 
   <!-- title, description, and image may change per-page, per-post -->
   <title>{{ site.title }}</title>
